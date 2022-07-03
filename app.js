@@ -8,6 +8,10 @@ lottie.loadAnimation({
 
 var onloadCallback = function () {
   grecaptcha.render('html_element', {
-    sitekey: 'your_site_key',
-  });
+    sitekey: '6Lfkz70gAAAAADMqVTCZS0LGI4qYMel-2Xb39mKB'
 };
+
+//サイトキー
+//6Lfkz70gAAAAADMqVTCZS0LGI4qYMel-2Xb39mKB
+//シークレットキー
+//6Lfkz70gAAAAADekUfM-MRhBZSD7JA9FOi8vXjxm
