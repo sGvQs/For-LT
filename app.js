@@ -8,7 +8,8 @@ lottie.loadAnimation({
 
 var onloadCallback = function () {
   grecaptcha.render('html_element', {
-    sitekey: '6Lfkz70gAAAAADMqVTCZS0LGI4qYMel-2Xb39mKB'
+    sitekey: '6Lfkz70gAAAAADMqVTCZS0LGI4qYMel-2Xb39mKB',
+  });
 };
 
 //サイトキー
