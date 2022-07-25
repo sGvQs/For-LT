@@ -27,7 +27,7 @@ VANTA.CLOUDS({
 //darkmode.js
 
 const options = {
-  time: '30s', // default: '0.3s'
+  time: '3s', // default: '0.3s'
   label: '🌙', // default: ''
 }
 
