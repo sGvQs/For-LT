@@ -55,7 +55,7 @@ function init() {
   function createStarField() {
     /* x,y,z座標の値がランダムに入った配列を1000個作成 */
     const vertices = [];
-    for (let i = 0; i < 5000000; i++) {
+    for (let i = 0; i < 500000; i++) {
       const x = 30000 * (Math.random() - 0.5);
       const y = 30000 * (Math.random() - 0.5);
       const z = 30000 * (Math.random() - 0.5);
@@ -90,7 +90,7 @@ function init() {
   function tick() {
     rot += .7; /* 角度 */
 
-    const radian = (rot * Math.PI) / 1000; /* カメラが動く速度 */
+    const radian = (rot * Math.PI) / 2500; /* カメラが動く速度 */
 
     /* 角度に応じてカメラの位置を変更 */
     camera.position.x = 2000 * Math.cos(radian);
